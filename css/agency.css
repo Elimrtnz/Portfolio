@@ -862,6 +862,14 @@ textarea {
    resize: none;
 }
 
+.spanLink .fa{
+  font-size: 2em;
+  color: red;
+  margin-right: 10px;
+  background-color: black;
+  border: 2px solid #ff0000;
+}
+
 
 
 
