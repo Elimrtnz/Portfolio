@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/hustle.jpg');
+  background-image: url('../img/hustle-min.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -317,6 +317,7 @@ section h3.section-subheading {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  /*box-shadow: 5px 0px 5px black;*/
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(255, 0, 0, 0.8);
@@ -355,6 +356,7 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
+  /*box-shadow: 5px 7px 5px black;*/
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -470,8 +472,8 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-dialog {
   margin: 0;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
@@ -482,6 +484,7 @@ ul.social-buttons li a:active {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  background-color: #bfbfbf;
 }
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
@@ -761,14 +764,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-/********MY CHANGES********/
+/********CHANGES********/
 
 #about{
   /*background-color: #252525;*/
@@ -865,6 +861,7 @@ body {
 textarea {
    resize: none;
 }
+
 
 
 
